@@ -11,37 +11,22 @@
     }
   </style>
   <script>
-    let window2014;
-    let window2015;
-    let window2016;
-    let window2017;
-    let window2018;
-    let window2019;
-    let window2020;
-    let window2021;
-    let window2022;
 
     let ratio = 1;
     let openWindows = function(){
-      console.log("open windows");
-      // window2014.close();
-      // window2015.close();
-      // window2016.close();
       var width = screen.width;
       var height = screen.height;
-      console.log(width,height);
       var xDis = width/2 - 746/2;
       var yDis = height/2 - 819/2;
-      console.log(xDis,yDis);
-      window2014 = window.open("2014","2014","width=470, height=750").moveTo(119*ratio+xDis,0+yDis);
-      window2015 = window.open("2015","2015","width=519, height=558").moveTo(0+xDis,193*ratio+yDis);
-      window2016 = window.open("2016","2016","width=380, height=541").moveTo(293*ratio+xDis,169*ratio+yDis);
-      window2017 = window.open("2017","2017","width=350, height=615").moveTo(203*ratio+xDis,135*ratio+yDis);
-      window2018 = window.open("2018","2018","width=239, height=601").moveTo(167*ratio+xDis,13*ratio+yDis);
-      window2019 = window.open("2019","2019","width=401, height=596").moveTo(233*ratio+xDis,193*ratio+yDis);
-      window2020 = window.open("2020","2020","width=312, height=805").moveTo(184*ratio+xDis,71*ratio+yDis);
-      window2021 = window.open("2021","2021","width=470, height=648").moveTo(276*ratio+xDis,196*ratio+yDis);
-      window2022 = window.open("2022","2022","width=350, height=493").moveTo(233*ratio+xDis,122*ratio+yDis);
+      window2014 = window.open("2014","2014","width=470, height=750").moveTo(119+xDis,0+yDis);
+      window.open("2015","2015","width=519, height=558").moveTo(0+xDis,193+yDis);
+      window.open("2016","2016","width=380, height=541").moveTo(293+xDis,169+yDis);
+      window.open("2017","2017","width=350, height=615").moveTo(203+xDis,135+yDis);
+      window.open("2018","2018","width=239, height=601").moveTo(167+xDis,13+yDis);
+      window.open("2019","2019","width=401, height=596").moveTo(233+xDis,193+yDis);
+      window.open("2020","2020","width=312, height=805").moveTo(184+xDis,71+yDis);
+      window.open("2021","2021","width=470, height=648").moveTo(276+xDis,196+yDis);
+      window.open("2022","2022","width=350, height=493").moveTo(233+xDis,122+yDis);
     };
   </script>
 </head>
